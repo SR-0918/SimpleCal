@@ -1,35 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>toppage</title>
-</head>
-<body>
-<header>
-    <div class="header-set">
-        <div class="header-right">
-            <div class="tab-right">
-                <a href="">TOP &ensp;</a>
-            </div>
-            <div class="tab-right">
-                <a href="filter.php">デジタルフィルタ設計 &ensp;</a>
-            </div>
-            <div class="tab-right">
-                <a href="radius.php">面積  &ensp;</a>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div class="about">
-    <?='ここでは簡単な計算が行えます。'?><br />
-    <?='上のタブから計算したいものを選択して行ってください'?><br />
-
-
-</div>
+<html>
+  <head>
+    <title>SFCC</title>
     
-</body>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <header>
+      <div class = "header-inner">
+        <div class="header-logo">
+            <p>SFCC</p>
+      </div>
+
+
+            <div class = "top-head">
+                <div class = "top-head_inner">
+                
+                    <div class = "header-line">
+          
+                        <ul class = "header-tab">
+                            <li class = "header-menu is-selected">
+                                <h3>トップ</h3>
+                            </li>
+
+                            <li class = "header-menu">
+                                <a href = ""><h3>HPF・LPF</h3></a>
+                            </li>
+
+                            <li class = "header-menu">
+                                <a href = ""><h3>面積</h3></a>
+                            </li>
+
+                            <li class = "header-menu">
+                                <a href = ""><h3>サイコロ</h3></a>
+                            </li>
+
+                            <li class = "header-menu">
+                                <a href = ""><h3>その他</h3></a>
+                            </li>
+
+                            <li class = "header-menu">
+                                <a href = ""><h3>おすすめサイト<br>リンク</h3></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+     
+    </header>
+
+    <div class = "main"><p>aiueo</p></div>
+    
+
+<footer class = "footer-top">
+      <div class = "footer-wrap">
+        <ul class = "footer-list">
+          <li><a href = "">トップ</a></li>
+          <li><a href = "">ヘルプ</a></li>
+          <li><a href = "">運営者</a></li>
+          <li><a href = "">利用規約</a></li>
+          <li><a href = "">プライバシーポリシー</a></li>
+          <li><a href = "">広告のご案内</a></li>
+          <li><a href = "">お問い合わせ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class = "footer-list">
+          <li><a href = "">SFCC(English)</a></li>
+          <li><a href = "">SFCC(繫体中文版)</a></li>
+        </ul>
+      </div>
+
+      <div class = "copy-right">
+        Copyright(C)
+        SimpleFrequencyCharacteristicCalc
+        All Right Reserved.
+      </div>
+
+</footer>
+
+     
+  </body>
+  
 </html>
