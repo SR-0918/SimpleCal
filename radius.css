@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+header{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(0, 169, 104);
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.header-set{
+    width: 100%;
+}
+
+
+.header-right{
+    float: right;
+}
+
+.tab-right{
+    float:left;
+}
+
+.tab-right a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.tytle{
+    position: relative;
+    top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about{
+    position:relative;
+    top: 40px;
+    font-size: 20px;
+    text-align: center;    
+}
+
+.radius{
+    position:relative;
+    top: 40px;
+    text-align: center;
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+input:invalid + .error{
+    display:block;
+}
+
+.button{
+    position:relative;
+    top: 40px;
+    transform: translateY(150%);
+    text-align: center;
+}
